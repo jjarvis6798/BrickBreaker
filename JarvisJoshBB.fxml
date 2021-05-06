@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JarvisJoshBB">
+   <children>
+      <Circle fx:id="ball" fill="DODGERBLUE" layoutX="285.0" layoutY="328.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="paddle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="21.0" layoutX="200.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="84.0" />
+      <Label fx:id="lblLives" layoutX="14.0" layoutY="371.0" text="Lives: " />
+      <Label fx:id="lblScore" layoutX="505.0" layoutY="371.0" text="Score: 0" />
+      <Label fx:id="lblLoser" layoutX="166.0" layoutY="158.0" prefHeight="85.0" prefWidth="268.0" text="YOU LOSE" visible="false">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
